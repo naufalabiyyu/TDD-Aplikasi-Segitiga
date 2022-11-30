@@ -1,4 +1,4 @@
-detectTriangle(num sideA, num sideB, num sideC) {
+String detectTriangle(num sideA, num sideB, num sideC) {
   final sides = [sideA, sideB, sideC];
   sides.sort();
 
